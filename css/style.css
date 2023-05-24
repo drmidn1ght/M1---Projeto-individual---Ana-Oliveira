@@ -1,0 +1,49 @@
+.fundo{
+        background-color: darkblue
+}
+
+.fonte{
+        color: #FFFFF0
+}
+.linque{
+        color:white
+}
+.btn-PI{
+        background-color:black;
+        outline:white;
+        color:white;
+        padding:10px;
+        cursor:pointer;
+        text-decoration:none;
+        display:flexbox
+}
+.btn-quem{
+        background-color:black;
+        outline:white;
+        color:white;
+        padding:10px;
+        cursor:pointer;
+        text-decoration:none;
+        display:flexbox
+}
+.btn-hobbies{
+        background-color:black;
+        outline:white;
+        color:white;
+        padding:10px;
+        cursor:pointer;
+        text-decoration:none;
+        display:flexbox
+}
+.btn-contato    {
+        background-color:black;
+        outline:white;
+        color:white;
+        padding:10px;
+        cursor:pointer;
+        text-decoration:none;
+        display:flexbox
+}
+.rodape{
+        color:yellow
+}
