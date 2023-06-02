@@ -1,12 +1,17 @@
-.fundo{
-        background-color: darkblue
+.nav{
+                        background-color: black;
+                         color: white;
+} 
+
+
+.mainContainer{
+        background-color: darkblue;
+ color:#FFFFF0;
+
 }
 
-.fonte{
-        color: #FFFFF0
-}
-.linque{
-        color:white
+.link{
+        color: #DDA0DD;
 }
 .btn-PI{
         background-color:black;
@@ -45,5 +50,6 @@
         display:flexbox
 }
 .rodape{
-        color:yellow
+        background-color: #363636;
+                 color: white;
 }

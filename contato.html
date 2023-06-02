@@ -8,14 +8,15 @@
     <title>Contato</title>
 </head>
 <body>
-<div class="fundo fundo">
+<!- Alteração: removida a tag div e inserção da tag nav dentro da tag header. ->
 
+<section class="nav">
+<header>
 <nav>
-<div class ="fonte fonte">
-<img src="./img/img-avatar.png" alt="Fundo amarelo com o desenho da cabeça de Ana no estilo anime. A personagem é morena de cabelo curto e crespo. Seus olhos são escuros e ela usa um equipamento de proteção ocular preso à testa."><h2>
-Ana Oliveira</h2>
-</nav>
-    <header>
+
+<img src="./img/img-avatar.png" alt="Fundo amarelo com o desenho da cabeça de Ana no estilo anime. A personagem é morena de cabelo curto e crespo. Seus olhos são escuros e ela usa um equipamento de proteção ocular preso à testa.">
+Ana Oliveira
+
 <h3>
 
 <button class="btn btn-PI" </a>
@@ -30,9 +31,17 @@ Ana Oliveira</h2>
 <button class="btn btn-contato" </a>
 <a href="contato.html"> Contato </a>
 </h3>
+</nav>
 </header
+
+
+<section class="mainContainer">
 <main>
-<div class ="fonte fonte">
+
+<!- Alteração: removida a tag div e inserção da tag section. ->
+
+
+
 <h2> Entre em contato</h2>
 <form>
 <fieldset>
@@ -52,18 +61,26 @@ Ana Oliveira</h2>
 
 <fieldset>
 <label> Mensagem </label>
-<input type=text name="nMensagem" id="iMensagem" maxlength=300 placeholder="Escreva aqui o que vier à sua cabeça...">
+
+<!- Alteração: substituição da tag input pela tag textarea. ->
+<textarea name="nMensagem" id="iMensagem" maxlength=300 placeholder="Escreva aqui o que vier à sua cabeça...">
+</textarea>
 </fieldset>
 
-<fieldset>
+
 <input type=submit name="nEnviar" id="iEnviar" placeholder="Enviar">
 </form>
 </main>
+</section>
+
+<section class="rodape">
 <footer>
 <a href=""> GitHub </a>
 <a href=""> LinkedIn </a>
 <a href=""> YouTube </a>
 <a href=""> TikTok </a>
 </footer>
+</section>
+
 </body>
 </html>
